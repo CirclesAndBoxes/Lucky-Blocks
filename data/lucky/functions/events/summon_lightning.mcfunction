@@ -1,0 +1,1 @@
+execute as @e[type=area_effect_cloud,tag=LightningCloud,nbt={Age:59}] at @s run summon lightning_bolt

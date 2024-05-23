@@ -1,0 +1,1 @@
+Note: Assets don't really help change the models of an item in a datapack - you have to put it into a resource pack before it can really do anything.

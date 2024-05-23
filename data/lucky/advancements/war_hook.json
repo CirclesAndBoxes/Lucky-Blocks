@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:fishing_rod"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lucky:special_items/bobber_use"
+    }
+  }
+  

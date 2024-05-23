@@ -1,0 +1,630 @@
+{
+        "pools": [
+            {
+                "rolls": 1,
+                "entries": [
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:egg",
+                      "functions": [
+                          {
+                              "function": "minecraft:set_lore",
+                              "lore": [
+                              {
+                                  "text": "Aim and Fire",
+                                  "italic": true
+                              }
+                              ]
+                          },
+                          {
+                              "function": "minecraft:set_name",
+                              "name": "Gunshot"
+                          },
+                          {
+                              "function": "minecraft:set_count",
+                              "count": 6
+                          },
+                          {
+                              "function": "minecraft:set_nbt",
+                              "tag": "{Gun:1}"
+                          }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:egg",
+                      "functions": [
+                          {
+                              "function": "minecraft:set_lore",
+                              "lore": [
+                              {
+                                  "text": "Throw a Pufferfish!",
+                                  "italic": false
+                              }
+                              ]
+                          },
+                          {
+                              "function": "minecraft:set_name",
+                              "name": "Pufferfish Egg"
+                          },
+                          {
+                              "function": "minecraft:set_count",
+                              "count": 8
+                          },
+                          {
+                              "function": "minecraft:set_nbt",
+                              "tag": "{pufferfishSummon:1}"
+                          }
+                      ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:snowball",
+                        "functions": [
+                            {
+                                "function": "minecraft:set_lore",
+                                "lore": [
+                                {
+                                    "text": "Fire is fun",
+                                    "italic": true
+                                }
+                                ]
+                            },
+                            {
+                                "function": "minecraft:set_name",
+                                "name": "Fireball"
+                            },
+                            {
+                                "function": "minecraft:set_count",
+                                "count": 8
+                            },
+                            {
+                                "function": "minecraft:set_nbt",
+                                "tag": "{lb_Fireball:1}"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:splash_potion",
+                        "functions": [
+                          {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{Id:15,Duration:400},{Id:33,Duration:400},{Id:17,Duration:400},{Id:7,Duration:4,Amplifier:1},{Id:4,Duration:400},{Id:9,Duration:400},{Id:19,Duration:400,Amplifier:1},{Id:2,Duration:400,Amplifier:1},{Id:18,Duration:400,Amplifier:1},{Id:20,Duration:400,Amplifier:1}]}"
+                          },
+                          {
+                            "function": "minecraft:set_name",
+                            "name": "Pain Potion"
+                          },
+                          {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "Hurt in a bottle"
+                              }
+                            ]
+                          }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:splash_potion",
+                        "functions": [
+                          {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionColor:16121651,CustomPotionEffects:[{Id:22,Duration:2400},{Id:30,Duration:1200},{Id:12,Duration:2400},{Id:21,Duration:2400},{Id:6,Duration:4,Amplifier:1},{Id:8,Duration:2400,Amplifier:1},{Id:16,Duration:2400},{Id:10,Duration:1200,Amplifier:1},{Id:11,Duration:2400},{Id:23,Duration:1200},{Id:1,Duration:2400,Amplifier:1},{Id:5,Duration:2400,Amplifier:1},{Id:13,Duration:2400}]}"
+                          },
+                          {
+                            "function": "minecraft:set_name",
+                            "name": "Helpful Potion"
+                          },
+                          {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "Actually, its OP"
+                              }
+                            ]
+                          }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:stick",
+                        "functions": [
+                          {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                              "minecraft:knockback": 5
+                            }
+                          },
+                          {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "Wheee!"
+                              }
+                            ]
+                          }
+                        ]
+                    },
+                    {
+                        "type": "minecraft:item",
+                        "name": "minecraft:trident",
+                        "functions": [
+                          {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                              "minecraft:riptide": 5
+                            }
+                          },
+                          {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                              {
+                                "text": "Use with caution. Launches far"
+                              }
+                            ]
+                          }
+                        ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:bone",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Wolf Summoner",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Summons a wolf on a kill",
+                              "italic": false
+                            },
+                            {
+                              "text": "Uses up the item",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_count",
+                          "count": 5
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{WolfBone:1}"
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.attack_damage",
+                              "name": "",
+                              "amount": 6,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.attack_speed",
+                              "name": "",
+                              "amount": -2.4,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:iron_sword",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{LifeSteal:1}"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Life Stealer",
+                            "color": "red",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Heals on a kill",
+                              "color": "red",
+                              "italic": false
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:netherite_hoe",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Reaper Scythe",
+                            "color": "black",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Life Steal: Get health on a kill",
+                              "color": "red",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{LifeSteal:1}"
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.attack_damage",
+                              "name": "",
+                              "amount": 5,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.attack_speed",
+                              "name": "",
+                              "amount": -2.8,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_enchantments",
+                          "enchantments": {
+                            "minecraft:sharpness": 3
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:iron_shovel",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "War Hammer",
+                            "color": "dark grey",
+                            "italic": false,
+                            "bold": true
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Smash your enemies",
+                              "color": "dark grey",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.attack_damage",
+                              "name": "",
+                              "amount": 10,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.attack_speed",
+                              "name": "",
+                              "amount": -3.5,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:prismarine_shard",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Fast Dagger",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Double Attack: ",
+                              "color": "white",
+                              "italic": false
+                            },{
+                              "text": "When in offhand, nearby enemies",
+                              "color": "white",
+                              "italic": false
+                            },{
+                              "text": "you hit are damaged a second time",
+                              "color": "white",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_enchantments",
+                          "enchantments": {
+                            "minecraft:sharpness": 4
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{QuickAttack:1}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:shield",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Extra Strong Shield",
+                            "color": "grey",
+                            "italic": false,
+                            "bold": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Protects better",
+                              "color": "grey",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.armor",
+                              "name": "",
+                              "amount": 2,
+                              "operation": "addition",
+                              "slot": "offhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.armor_toughness",
+                              "name": "",
+                              "amount": 1,
+                              "operation": "addition",
+                              "slot": "offhand"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:fishing_rod",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "War Hook",
+                            "color": "gold",
+                            "italic": false,
+                            "bold": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "1.8 style fishing rod. 2 damage per hit",
+                              "color": "gold",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_enchantments",
+                          "enchantments": {
+                            "minecraft:sharpness": 5
+                          }
+                          
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{WarHook:1}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:iron_sword",
+                      "functions": [
+                        {
+                          "function": "minecraft:enchant_randomly"
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Unreliable Sword",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Switches Enchantments on hit",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{Unreliable:1}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:loot_table",
+                      "name": "lucky:blocks/special_item_loot/special_arrows",
+                      "weight": 3
+                    },
+                    {
+                      "type": "minecraft:loot_table",
+                      "name": "lucky:blocks/special_item_loot/special_bows",
+                      "weight": 2
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:golden_sword",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Multihit Sword",
+                            "color": "gold",
+                            "italic": false,
+                            "bold": true
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Throws your opponent up into the air",
+                              "color": "gold",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{Multihit:1}"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:totem_of_undying",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Frees an offhand slot",
+                              "color": "green",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Sword of Undying",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.attack_speed",
+                              "name": "",
+                              "amount": -2.4,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.attack_damage",
+                              "name": "",
+                              "amount": 5,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:item",
+                      "name": "minecraft:golden_axe",
+                      "functions": [
+                        {
+                          "function": "minecraft:set_nbt",
+                          "tag": "{ShieldBreaker:1}"
+                        },
+                        {
+                          "function": "minecraft:set_lore",
+                          "lore": [
+                            {
+                              "text": "Deals 9 damage when breaking shields",
+                              "color": "green",
+                              "italic": false
+                            }
+                          ]
+                        },
+                        {
+                          "function": "minecraft:set_name",
+                          "name": {
+                            "text": "Shield Punisher",
+                            "color": "brown",
+                            "italic": false
+                          }
+                        },
+                        {
+                          "function": "minecraft:set_attributes",
+                          "modifiers": [
+                            {
+                              "attribute": "minecraft:generic.attack_speed",
+                              "name": "",
+                              "amount": -3,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            },
+                            {
+                              "attribute": "minecraft:generic.attack_damage",
+                              "name": "",
+                              "amount": 1,
+                              "operation": "addition",
+                              "slot": "mainhand"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                ]
+            }
+        ]
+    }

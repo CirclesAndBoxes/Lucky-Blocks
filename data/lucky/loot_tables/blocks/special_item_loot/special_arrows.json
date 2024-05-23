@@ -1,0 +1,111 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 6
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:16591897}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "TNT Arrow",
+                  "color": "red",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Fires a block of TNT instead of an arrow",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:1697533,CustomPotionEffects:[{Id:27,Duration:100,Amplifier:10b}]}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Ice Arrow",
+                  "color": "blue",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Players are encased in ice",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:tipped_arrow",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomPotionColor:14448144}"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Launch Arrow",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Ride this arrow!",
+                    "italic": false
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,2 @@
+#I have no idea if this will work, but I guess we will find out.
+execute as @e[type=area_effect_cloud,tag=WardenCloud,nbt={Age:59}] at @s run summon warden ~ ~1 ~ {Brain:{memories:{"minecraft:dig_cooldown":{value:{}, ttl:1200L},"minecraft:is_emerging":{value:{},ttl: 85L}}}}

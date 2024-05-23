@@ -1,0 +1,20 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": {
+            "equipment": {
+              "legs": {
+                "nbt": "{Unreliable:1}"
+              }
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "lucky:special_items/unreliable/leggings"
+    }
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "chest": {
+              "nbt": "{Unreliable:1}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "lucky:special_items/unreliable/chestplate"
+  }
+}

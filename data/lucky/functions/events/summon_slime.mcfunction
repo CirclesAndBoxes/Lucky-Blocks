@@ -1,0 +1,1 @@
+summon slime ~ ~ ~ {Size:3,CustomName:'[{"text": "Big Slime", "bold": true,"color": "green"}]'}

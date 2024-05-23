@@ -1,0 +1,123 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_chestplate",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Unreliable Chestplate",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Switches Enchantments when hit",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unreliable:1}"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:iron_helmet",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Unreliable Helmet",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Switches Enchantments when hit",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unreliable:1}"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:iron_leggings",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Unreliable Leggings",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Switches Enchantments when hit",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unreliable:1}"
+              }
+            ]
+          },{
+            "type": "minecraft:item",
+            "name": "minecraft:iron_boots",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Unreliable Boots",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Switches Enchantments when hit",
+                    "italic": false
+                  }
+                ]
+              },
+              {
+                "function": "minecraft:enchant_randomly"
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{Unreliable:1}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 20,
+        "entries": [
+          {
+            "type": "minecraft:tag",
+            "name": "minecraft:completes_find_tree_tutorial",
+            "expand": true,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 4,
+                  "max": 6
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:tag",
+            "name": "minecraft:wool",
+            "expand": true,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 16,
+                  "max": 32
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
