@@ -39,7 +39,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minec
 #     execute as @e[type=fishing_bobber,tag=WarBobber,nbt={OnGround:false}] at @s run function lucky:special_items/bobber_tick
 #     execute as @a[scores={lb_RodUsed=1..}] run tag @s remove FishingOwner
 #     
-#     execute as @e[scores={lb_Multihit=1..}] at @s run function lucky:special_items/multihit_tick
+execute as @e[scores={lb_Multihit=1..}] at @s run function lucky:special_items/multihit_tick
 
 
 #Uhh...

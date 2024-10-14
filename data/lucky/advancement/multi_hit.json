@@ -10,7 +10,11 @@
               "predicate": {
                 "equipment": {
                   "mainhand": {
-                    "nbt": "{Multihit:1}"
+                    "components": {
+                      "custom_data": {
+                        "Multihit":1
+                      }
+                    }
                   }
                 }
               }

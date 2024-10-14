@@ -1,3 +1,4 @@
+
 tag @s add attacker
 
 execute as @e[distance=..5,nbt={HurtTime:10s}] at @s on attacker if entity @s[tag=attacker] run scoreboard players set @e[distance=..0.01,limit=1,sort=nearest] lb_Multihit 20
