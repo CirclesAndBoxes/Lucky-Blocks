@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:blocks/acacia_hanging_sign",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:chests/trial_chambers/reward_ominous_common",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  
