@@ -6,7 +6,11 @@
           "player": {
             "equipment": {
               "mainhand": {
-                "nbt": "{LifeSteal:1}"
+                "components": {
+                  "custom_data": {
+                    "LifeSteal" : 1
+                  }
+                }
               }
             }
           }

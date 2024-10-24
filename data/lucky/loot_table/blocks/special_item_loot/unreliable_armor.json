@@ -21,14 +21,19 @@
                     "text": "Switches Enchantments when hit",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:enchant_randomly"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Unreliable:1}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "Unreliable":1
+                  }
+                }
               }
             ]
           },{
@@ -49,14 +54,19 @@
                     "text": "Switches Enchantments when hit",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:enchant_randomly"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Unreliable:1}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "Unreliable":1
+                  }
+                }
               }
             ]
           },{
@@ -77,14 +87,19 @@
                     "text": "Switches Enchantments when hit",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:enchant_randomly"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Unreliable:1}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "Unreliable":1
+                  }
+                }
               }
             ]
           },{
@@ -105,14 +120,19 @@
                     "text": "Switches Enchantments when hit",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:enchant_randomly"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Unreliable:1}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "Unreliable":1
+                  }
+                }
               }
             ]
           }

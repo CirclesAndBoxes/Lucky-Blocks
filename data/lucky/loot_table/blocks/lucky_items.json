@@ -5,7 +5,13 @@
         "entries": [
           {
             "type": "minecraft:item",
-            "name": "minecraft:stone"
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "set_custom_data",
+                "tag": "{LifeSteal:1}"
+              }
+            ]
           }
         ]
       }

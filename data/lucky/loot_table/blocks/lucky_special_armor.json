@@ -16,7 +16,8 @@
                     "text": "Run Faster",
                     "italic": true
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -27,17 +28,15 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.movement_speed",
-                    "name": "",
                     "amount": 0.25,
-                    "operation": "multiply_base",
-                    "id": "3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
+                    "operation": "add_multiplied_base",
+                    "id":"3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
                     "slot": "feet"
                   },
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": 1,
-                    "operation": "addition",
+                    "operation": "add_value",
                     "id": "3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
                     "slot": "feet"
                   }
@@ -56,7 +55,8 @@
                     "text": "For CPS Fans",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -67,25 +67,22 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.attack_damage",
-                    "name": "",
                     "amount": -0.2,
-                    "operation": "multiply_total",
+                    "operation": "add_multiplied_total",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
                     "slot": "chest"
                   },
                   {
                     "attribute": "minecraft:generic.attack_speed",
-                    "name": "",
                     "amount": 1,
-                    "operation": "addition",
+                    "operation": "add_value",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
                     "slot": "chest"
                   },
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": 3,
-                    "operation": "addition",
+                    "operation": "add_value",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
                     "slot": "chest"
                   }
@@ -102,10 +99,11 @@
                 "lore": [
                   {
                     "text": "It gives you a little boost of power...",
-                    "color": "purple",
+                    "color": "#a313a1",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -116,17 +114,17 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.attack_damage",
-                    "name": "",
                     "amount": 1,
-                    "operation": "addition",
-                    "slot": "offhand"
+                    "operation": "add_value",
+                    "slot": "offhand",
+                    "id": "c59e0-7bbdce-48c2-8d93-1fc5f642"
                   },
                   {
                     "attribute": "minecraft:generic.max_health",
-                    "name": "",
                     "amount": 2,
-                    "operation": "addition",
-                    "slot": "offhand"
+                    "operation": "add_value",
+                    "slot": "offhand",
+                    "id": "c59e0-7bbdce-48c2-8d93-1fc5f642"
                   }
                 ]
               }
@@ -155,7 +153,8 @@
                     "color": "black",
                     "obfuscated": true
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -166,17 +165,17 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.attack_damage",
-                    "name": "",
                     "amount": 5,
-                    "operation": "addition",
-                    "slot": "offhand"
+                    "operation": "add_value",
+                    "slot": "offhand",
+                    "id": "c59e0-7bbdce-48c2-8d93-1fc5f6421"
                   },
                   {
                     "attribute": "minecraft:generic.max_health",
-                    "name": "",
                     "amount": -6,
-                    "operation": "addition",
-                    "slot": "offhand"
+                    "operation": "add_value",
+                    "slot": "offhand",
+                    "id": "c59e0-7bbdce-48c2-8d93-1fc5f6421"
                   }
                 ]
               }
@@ -201,7 +200,8 @@
                     "bold": true,
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -212,38 +212,38 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.max_health",
-                    "name": "",
                     "amount": 2,
-                    "operation": "addition",
-                    "slot": "chest"
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "2402-438692-hfsk-111"
                   },
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": 8,
-                    "operation": "addition",
-                    "slot": "chest"
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "2402-438692-hfsk-111"
                   },
                   {
                     "attribute": "minecraft:generic.armor_toughness",
-                    "name": "",
                     "amount": 3,
-                    "operation": "addition",
-                    "slot": "chest"
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "2402-438692-hfsk-111"
                   },
                   {
                     "attribute": "minecraft:generic.movement_speed",
-                    "name": "",
                     "amount": -0.2,
-                    "operation": "multiply_base",
-                    "slot": "chest"
+                    "operation": "add_multiplied_base",
+                    "slot": "chest",
+                    "id": "2402-438692-hfsk-111"
                   },
                   {
                     "attribute": "minecraft:generic.knockback_resistance",
-                    "name": "",
                     "amount": 0.1,
-                    "operation": "addition",
-                    "slot": "chest"
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "2402-438692-hfsk-111"
                   }
                 ]
               }
@@ -262,17 +262,24 @@
                     "text": "Shift to Smash",
                     "italic": true
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
-                "name": "Ground Pound",
-                "italic": false,
-                "color": "green"
+                "name": {
+                  "text": "Ground Pound",
+                  "italic": false,
+                  "color": "green"
+                }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{GroundPoundLeggings:1}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "custom_data": {
+                    "GroundPoundLeggings" : 1
+                  }
+                }
               },
               {
                 "function":"minecraft:set_enchantments",
@@ -288,8 +295,13 @@
             "name": "minecraft:leather_boots",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{JumpBoost:2,display:{color:120100}}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "JumpBoost" : 2
+                  },
+                  "dyed_color":120100
+                }
               },
               {
                 "function": "minecraft:set_lore",
@@ -298,7 +310,8 @@
                     "text": "Hop like Luigi",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -314,8 +327,10 @@
             "name": "minecraft:leather_leggings",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{color:4831207}}"
+                "function": "minecraft:set_components",
+                "components": {
+                  "dyed_color": 4831207
+                }
               },
               {
                 "function": "minecraft:set_name",
@@ -336,17 +351,17 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.movement_speed",
-                    "name": "",
                     "amount": 0.1,
-                    "operation": "multiply_base",
-                    "slot": "legs"
+                    "operation": "add_multiplied_base",
+                    "slot": "legs",
+                    "id": "123-432-90690210-bn11"
                   },
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": 1,
-                    "operation": "addition",
-                    "slot": "legs"
+                    "operation": "add_value",
+                    "slot": "legs",
+                    "id": "123-432-90690210-bn11"
                   }
                 ]
               },
@@ -358,7 +373,8 @@
                     "color": "white",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           },
@@ -371,10 +387,10 @@
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.attack_damage",
-                    "name": "",
                     "amount": 1,
-                    "operation": "addition",
-                    "slot": "head"
+                    "operation": "add_value",
+                    "slot": "head",
+                    "id": "123-432-90690210-bn112"
                   }
                 ]
               },
@@ -391,21 +407,22 @@
                     "color": "white",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
                 "entity": "this",
                 "name": {
                   "text": "Dragonfire Focus",
-                  "color": "purple",
+                  "color": "dark_purple",
                   "bold": true,
                   "italic": false
                 }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{DragonPower:1}"
+                "function": "set_custom_data",
+                "tag": {"DragonPower":1}
               }
             ]
           },
@@ -431,11 +448,27 @@
                     "bold": false,
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{SkullOwner:{Id:[I;-665496388,-1904259449,-1306089789,-851805510],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5M2VlZjQ4NDkwNzhkZjRjY2Q0OTgwNTRjNzRlMjE3MWM3NzFmMjczMDk0NDE2NGE4ZWU3YjJkNTYzODMyIn19fQ==\"}]}},HealerHat:1}"
+                "function": "minecraft:set_custom_data",
+                "tag": {"HealerHat":1}
+              },
+              {
+                "function": "set_components",
+                "components": {
+                  "profile": {
+                    "id": [-665496388,-1904259449,-1306089789,-851805510],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5M2VlZjQ4NDkwNzhkZjRjY2Q0OTgwNTRjNzRlMjE3MWM3NzFmMjczMDk0NDE2NGE4ZWU3YjJkNTYzODMyIn19fQ=="
+                      }
+                    ]
+                  }
+                }
+                
               }
             ]
           },
@@ -473,11 +506,23 @@
                     "bold": false,
                     "italic": true
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{SkullOwner:{Id:[I;1920382238,-1845410705,-1102436639,-1130496387],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc0ZjU4YjAwMWJlZWJmNGVlMTU4MGQxN2UwZWMyOTdjNzY0OGIxNDhiNmVhOWMwNTc0ZTQ3ZjAwOGU1Y2QifX19\"}]}}}"
+                "function": "set_components",
+                "components": {
+                  "profile": {
+                    "id": [1920382238,-1845410705,-1102436639,-1130496387],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjc0ZjU4YjAwMWJlZWJmNGVlMTU4MGQxN2UwZWMyOTdjNzY0OGIxNDhiNmVhOWMwNTc0ZTQ3ZjAwOGU1Y2QifX19"
+                      }
+                    ]
+                  }
+                }
+                
               }
             ]
           },
@@ -489,7 +534,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "text": "Wizard Robes",
-                  "color": "magenta",
+                  "color": "light_purple",
                   "bold": false,
                   "italic": false
                 }
@@ -500,7 +545,8 @@
                   {
                     "text": "Protection against physical and magical damage"
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_enchantments",
@@ -509,18 +555,20 @@
                 }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{display:{color:12979135}}"
+                "function": "set_components",
+                "components" :{
+                  "dyed_color": 12979135
+                }
               },
               {
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": 0,
-                    "operation": "addition",
-                    "slot": "chest"
+                    "operation": "add_value",
+                    "slot": "chest",
+                    "id": "19025-77899-42-1"
                   }
                 ]
               }
@@ -528,7 +576,7 @@
           },
           {
             "type": "minecraft:loot_table",
-            "name": "lucky:blocks/special_item_loot/unreliable_armor",
+            "value": "lucky:blocks/special_item_loot/unreliable_armor",
             "weight": 2
           },
           {
@@ -539,7 +587,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "text": "Health Modifier",
-                  "color": "magenta",
+                  "color": "light_purple",
                   "bold": false,
                   "italic": false
                 }
@@ -550,28 +598,39 @@
                   {
                     "text": "All Health, no Defense"
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{SkullOwner:{Id:[I;1138564195,1388005100,-1873630354,1831556004],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQzNmMzMjkxZmUwMmQxNDJjNGFmMjhkZjJmNTViYjAzOTdlMTk4NTU0ZTgzNDU5OTBkYmJjZDRjMTQwMzE2YiJ9fX0=\"}]}}}"
+                "function": "set_components",
+                "components": {
+                  "profile": {
+                    "id": [1138564195,1388005100,-1873630354,1831556004],
+                    "properties": [
+                      {
+                        "name": "textures",
+                        "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmQzNmMzMjkxZmUwMmQxNDJjNGFmMjhkZjJmNTViYjAzOTdlMTk4NTU0ZTgzNDU5OTBkYmJjZDRjMTQwMzE2YiJ9fX0="
+                      }
+                    ]
+                  }
+                }
               },
               {
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
                     "attribute": "minecraft:generic.armor",
-                    "name": "",
                     "amount": -100,
-                    "operation": "multiply_total",
-                    "slot": "head"
+                    "operation": "add_multiplied_total",
+                    "slot": "head",
+                    "id": "99999-12-73951-b1"
                   },
                   {
                     "attribute": "minecraft:generic.max_health",
-                    "name": "",
                     "amount": 1.5,
-                    "operation": "multiply_base",
-                    "slot": "head"
+                    "operation": "add_multiplied_base",
+                    "slot": "head",
+                    "id": "99999-12-73951-b1"
                   }
                 ]
               }
@@ -588,7 +647,8 @@
                     "text": "Troll item",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               },
               {
                 "function": "minecraft:set_name",
@@ -612,8 +672,8 @@
             "name": "minecraft:golden_helmet",
             "functions": [
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{Undamage:1}"
+                "function": "minecraft:set_custom_data",
+                "tag": {"Undamage":1}
               },
               {
                 "function": "minecraft:set_enchantments",
@@ -636,7 +696,8 @@
                     "text": "Gives buffs every 10 hits you take",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           }
@@ -644,4 +705,3 @@
       }
     ]
   }
-  

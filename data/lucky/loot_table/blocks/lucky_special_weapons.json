@@ -14,7 +14,8 @@
                                   "text": "Aim and Fire",
                                   "italic": true
                               }
-                              ]
+                              ],
+                                "mode": "insert"
                           },
                           {
                               "function": "minecraft:set_name",
@@ -25,8 +26,8 @@
                               "count": 6
                           },
                           {
-                              "function": "minecraft:set_nbt",
-                              "tag": "{Gun:1}"
+                              "function": "minecraft:set_custom_data",
+                              "tag": {"Gun":1}
                           }
                       ]
                     },
@@ -41,7 +42,8 @@
                                   "text": "Throw a Pufferfish!",
                                   "italic": false
                               }
-                              ]
+                              ],
+                                "mode": "insert"
                           },
                           {
                               "function": "minecraft:set_name",
@@ -52,8 +54,8 @@
                               "count": 8
                           },
                           {
-                              "function": "minecraft:set_nbt",
-                              "tag": "{pufferfishSummon:1}"
+                              "function": "minecraft:set_custom_data",
+                              "tag": {"pufferfishSummon":1}
                           }
                       ]
                     },
@@ -68,7 +70,8 @@
                                     "text": "Fire is fun",
                                     "italic": true
                                 }
-                                ]
+                                ],
+                                "mode": "insert"
                             },
                             {
                                 "function": "minecraft:set_name",
@@ -79,7 +82,7 @@
                                 "count": 8
                             },
                             {
-                                "function": "minecraft:set_nbt",
+                                "function": "minecraft:set_custom_data",
                                 "tag": "{lb_Fireball:1}"
                             }
                         ]
@@ -89,8 +92,39 @@
                         "name": "minecraft:splash_potion",
                         "functions": [
                           {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomPotionEffects:[{Id:15,Duration:400},{Id:33,Duration:400},{Id:17,Duration:400},{Id:7,Duration:4,Amplifier:1},{Id:4,Duration:400},{Id:9,Duration:400},{Id:19,Duration:400,Amplifier:1},{Id:2,Duration:400,Amplifier:1},{Id:18,Duration:400,Amplifier:1},{Id:20,Duration:400,Amplifier:1}]}"
+                            "function": "set_components",
+                            "components": {
+                              "potion_contents": {
+                                "custom_effects": [
+                                  {
+                                    "id": "slowness",
+                                    "duration": 400
+                                  },{
+                                    "id": "instant_damage",
+                                    "duration": 400
+                                  },{
+                                    "id": "blindness",
+                                    "duration": 400
+                                  },{
+                                    "id": "hunger",
+                                    "duration": 400
+                                  },{
+                                    "id":"poison",
+                                    "duration": 400
+                                  },{
+                                    "id": "wither",
+                                    "duration": 400
+                                  },{
+                                    "id": "mining_fatigue",
+                                    "duration": 400
+                                  },{
+                                    "id": "weakness",
+                                    "duration": 400
+                                  }
+                                ],
+                                "custom_color": 3410433
+                              }
+                            }
                           },
                           {
                             "function": "minecraft:set_name",
@@ -102,7 +136,8 @@
                               {
                                 "text": "Hurt in a bottle"
                               }
-                            ]
+                            ],
+                            "mode": "insert"
                           }
                         ]
                     },
@@ -111,8 +146,39 @@
                         "name": "minecraft:splash_potion",
                         "functions": [
                           {
-                            "function": "minecraft:set_nbt",
-                            "tag": "{CustomPotionColor:16121651,CustomPotionEffects:[{Id:22,Duration:2400},{Id:30,Duration:1200},{Id:12,Duration:2400},{Id:21,Duration:2400},{Id:6,Duration:4,Amplifier:1},{Id:8,Duration:2400,Amplifier:1},{Id:16,Duration:2400},{Id:10,Duration:1200,Amplifier:1},{Id:11,Duration:2400},{Id:23,Duration:1200},{Id:1,Duration:2400,Amplifier:1},{Id:5,Duration:2400,Amplifier:1},{Id:13,Duration:2400}]}"
+                            "function": "set_components",
+                            "components": {
+                              "potion_contents": {
+                                "custom_effects": [
+                                  {
+                                    "id": "speed",
+                                    "duration": 400
+                                  },{
+                                    "id": "instant_health",
+                                    "duration": 400
+                                  },{
+                                    "id": "fire_resistance",
+                                    "duration": 400
+                                  },{
+                                    "id": "saturation",
+                                    "duration": 100
+                                  },{
+                                    "id":"absorption",
+                                    "duration": 400
+                                  },{
+                                    "id": "regeneration",
+                                    "duration": 400
+                                  },{
+                                    "id": "strength",
+                                    "duration": 400
+                                  },{
+                                    "id": "resistance",
+                                    "duration":400
+                                  }
+                                ],
+                                "custom_color": 15985698
+                              }
+                            }
                           },
                           {
                             "function": "minecraft:set_name",
@@ -124,7 +190,8 @@
                               {
                                 "text": "Actually, its OP"
                               }
-                            ]
+                            ],
+                            "mode": "insert"
                           }
                         ]
                     },
@@ -144,7 +211,8 @@
                               {
                                 "text": "Wheee!"
                               }
-                            ]
+                            ],
+                            "mode": "insert"
                           }
                         ]
                     },
@@ -164,7 +232,8 @@
                               {
                                 "text": "Use with caution. Launches far"
                               }
-                            ]
+                            ],
+                            "mode": "insert"
                           }
                         ]
                     },
@@ -190,32 +259,34 @@
                               "text": "Uses up the item",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_count",
                           "count": 5
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{WolfBone:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"WolfBone":1}
                         },
                         {
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.attack_damage",
-                              "name": "",
                               "amount": 6,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g1"
                             },
                             {
                               "attribute": "minecraft:generic.attack_speed",
-                              "name": "",
+                              
                               "amount": -2.4,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g1"
                             }
                           ]
                         }
@@ -226,8 +297,8 @@
                       "name": "minecraft:iron_sword",
                       "functions": [
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{LifeSteal:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"LifeSteal":1}
                         },
                         {
                           "function": "minecraft:set_name",
@@ -245,7 +316,8 @@
                               "color": "red",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         }
                       ]
                     },
@@ -269,28 +341,31 @@
                               "color": "red",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{LifeSteal:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"LifeSteal":1}
                         },
                         {
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.attack_damage",
-                              "name": "",
+                              
                               "amount": 5,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g12"
                             },
                             {
                               "attribute": "minecraft:generic.attack_speed",
-                              "name": "",
+                              
                               "amount": -2.8,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g12"
                             }
                           ]
                         },
@@ -304,13 +379,13 @@
                     },
                     {
                       "type": "minecraft:item",
-                      "name": "minecraft:iron_shovel",
+                      "name": "minecraft:mace",
                       "functions": [
                         {
                           "function": "minecraft:set_name",
                           "name": {
                             "text": "War Hammer",
-                            "color": "dark grey",
+                            "color": "#393939",
                             "italic": false,
                             "bold": true
                           }
@@ -320,27 +395,30 @@
                           "lore": [
                             {
                               "text": "Smash your enemies",
-                              "color": "dark grey",
+                              "color": "#393939",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.attack_damage",
-                              "name": "",
+                              
                               "amount": 10,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g13"
                             },
                             {
                               "attribute": "minecraft:generic.attack_speed",
-                              "name": "",
+                              
                               "amount": -3.5,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g13"
                             }
                           ]
                         }
@@ -373,7 +451,8 @@
                               "color": "white",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_enchantments",
@@ -382,8 +461,8 @@
                           }
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{QuickAttack:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"QuickAttack":1}
                         }
                       ]
                     },
@@ -395,7 +474,7 @@
                           "function": "minecraft:set_name",
                           "name": {
                             "text": "Extra Strong Shield",
-                            "color": "grey",
+                            "color": "#555555",
                             "italic": false,
                             "bold": false
                           }
@@ -405,27 +484,30 @@
                           "lore": [
                             {
                               "text": "Protects better",
-                              "color": "grey",
+                              "color": "#555555",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.armor",
-                              "name": "",
+                              
                               "amount": 2,
-                              "operation": "addition",
-                              "slot": "offhand"
+                              "operation": "add_value",
+                              "slot": "offhand",
+                              "id": "111-111-5235323-11g134"
                             },
                             {
                               "attribute": "minecraft:generic.armor_toughness",
-                              "name": "",
+                              
                               "amount": 1,
-                              "operation": "addition",
-                              "slot": "offhand"
+                              "operation": "add_value",
+                              "slot": "offhand",
+                              "id": "111-111-5235323-11g134"
                             }
                           ]
                         }
@@ -452,7 +534,8 @@
                               "color": "gold",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_enchantments",
@@ -462,8 +545,8 @@
                           
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{WarHook:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"WarHook":1}
                         }
                       ]
                     },
@@ -488,22 +571,23 @@
                               "text": "Switches Enchantments on hit",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{Unreliable:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"Unreliable":1}
                         }
                       ]
                     },
                     {
                       "type": "minecraft:loot_table",
-                      "name": "lucky:blocks/special_item_loot/special_arrows",
+                      "value": "lucky:blocks/special_item_loot/special_arrows",
                       "weight": 3
                     },
                     {
                       "type": "minecraft:loot_table",
-                      "name": "lucky:blocks/special_item_loot/special_bows",
+                      "value": "lucky:blocks/special_item_loot/special_bows",
                       "weight": 2
                     },
                     {
@@ -527,11 +611,12 @@
                               "color": "gold",
                               "italic": false
                             }
-                          ]
+                          ],
+                          "mode": "insert"
                         },
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{Multihit:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"Multihit":1}
                         }
                       ]
                     },
@@ -547,7 +632,8 @@
                               "color": "green",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_name",
@@ -561,17 +647,19 @@
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.attack_speed",
-                              "name": "",
+                              
                               "amount": -2.4,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g1347"
                             },
                             {
                               "attribute": "minecraft:generic.attack_damage",
-                              "name": "",
+                              
                               "amount": 5,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111-111-5235323-11g1347"
                             }
                           ]
                         }
@@ -582,8 +670,8 @@
                       "name": "minecraft:golden_axe",
                       "functions": [
                         {
-                          "function": "minecraft:set_nbt",
-                          "tag": "{ShieldBreaker:1}"
+                          "function": "minecraft:set_custom_data",
+                          "tag": {"ShieldBreaker":1}
                         },
                         {
                           "function": "minecraft:set_lore",
@@ -593,13 +681,14 @@
                               "color": "green",
                               "italic": false
                             }
-                          ]
+                          ],
+                            "mode": "insert"
                         },
                         {
                           "function": "minecraft:set_name",
                           "name": {
                             "text": "Shield Punisher",
-                            "color": "brown",
+                            "color": "#4a2500",
                             "italic": false
                           }
                         },
@@ -608,17 +697,19 @@
                           "modifiers": [
                             {
                               "attribute": "minecraft:generic.attack_speed",
-                              "name": "",
+                              
                               "amount": -3,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111545-111-5235323-11g1347"
                             },
                             {
                               "attribute": "minecraft:generic.attack_damage",
-                              "name": "",
+                              
                               "amount": 1,
-                              "operation": "addition",
-                              "slot": "mainhand"
+                              "operation": "add_value",
+                              "slot": "mainhand",
+                              "id": "111545-111-5235323-11g1347"
                             }
                           ]
                         }

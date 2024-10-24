@@ -9,7 +9,9 @@
               "items": [
                 "minecraft:bone"
               ],
-              "nbt": "{WolfBone:1}"
+              "components":{
+                "custom_data": {"WolfBone":1}
+              }
             }
           }
         }

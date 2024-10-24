@@ -6,7 +6,11 @@
           "player": {
             "equipment": {
               "mainhand": {
-                "nbt": "{Unreliable:1}"
+                "components": {
+                  "custom_data": {
+                    "Unreliable": 1
+                  }
+                }
               }
             }
           }

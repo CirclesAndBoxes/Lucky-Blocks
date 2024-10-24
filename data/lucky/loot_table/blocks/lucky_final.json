@@ -6,32 +6,32 @@
         {
           "type": "minecraft:loot_table",
           "weight": 4,
-          "name": "lucky:blocks/lucky_chest_loots"
+          "value": "lucky:blocks/lucky_chest_loots"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 8,
-          "name": "lucky:blocks/lucky_events"
+          "value": "lucky:blocks/lucky_events"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "lucky:blocks/other_item_loot/misc_stuff"
+          "value": "lucky:blocks/other_item_loot/misc_stuff"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "lucky:blocks/other_item_loot/weapon_tool_stuff"
+          "value": "lucky:blocks/other_item_loot/weapon_tool_stuff"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "lucky:blocks/lucky_special_armor"
+          "value": "lucky:blocks/lucky_special_armor"
         },
         {
           "type": "minecraft:loot_table",
           "weight": 3,
-          "name": "lucky:blocks/lucky_special_weapons"
+          "value": "lucky:blocks/lucky_special_weapons"
         }
       ]
     }

@@ -12,8 +12,12 @@
                 "count": 6
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:16591897}"
+                "function": "minecraft:set_components",
+                "components":{
+                  "potion_contents": {
+                    "custom_color": 16591897
+                  }
+                } 
               },
               {
                 "function": "minecraft:set_name",
@@ -30,7 +34,8 @@
                     "text": "Fires a block of TNT instead of an arrow",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           },
@@ -43,8 +48,19 @@
                 "count": 5
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:1697533,CustomPotionEffects:[{Id:27,Duration:100,Amplifier:10b}]}"
+              "function": "minecraft:set_components",
+                "components":{
+                  "potion_contents": {
+                    "custom_color": 1697533,
+                    "custom_effects": [
+                      {
+                        "id": "unluck",
+                        "duration": 100,
+                        "amplifier": 10
+                      }
+                    ]
+                  }
+                } 
               },
               {
                 "function": "minecraft:set_name",
@@ -61,7 +77,8 @@
                     "text": "Players are encased in ice",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           },
@@ -74,8 +91,12 @@
                 "count": 5
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{CustomPotionColor:14448144}"
+                "function": "minecraft:set_components",
+                "components":{
+                  "potion_contents": {
+                    "custom_color": 14448144
+                  }
+                } 
               },
               {
                 "function": "minecraft:set_name",
@@ -91,7 +112,8 @@
                     "text": "Ride this arrow!",
                     "italic": false
                   }
-                ]
+                ],
+                "mode": "insert"
               }
             ]
           }

@@ -6,67 +6,67 @@
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/abandoned_mineshaft"
+            "value": "minecraft:chests/abandoned_mineshaft"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/spawn_bonus_chest"
+            "value": "minecraft:chests/spawn_bonus_chest"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/desert_pyramid"
+            "value": "minecraft:chests/desert_pyramid"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/bastion_bridge"
+            "value": "minecraft:chests/bastion_bridge"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/bastion_treasure"
+            "value": "minecraft:chests/bastion_treasure"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/end_city_treasure"
+            "value": "minecraft:chests/end_city_treasure"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/ruined_portal"
+            "value": "minecraft:chests/ruined_portal"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/shipwreck_supply"
+            "value": "minecraft:chests/shipwreck_supply"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/shipwreck_treasure"
+            "value": "minecraft:chests/shipwreck_treasure"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/simple_dungeon"
+            "value": "minecraft:chests/simple_dungeon"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/village/village_butcher"
+            "value": "minecraft:chests/village/village_butcher"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/village/village_armorer"
+            "value": "minecraft:chests/village/village_armorer"
           },
           {
             "type": "minecraft:loot_table",
             "weight": 1,
-            "name": "minecraft:chests/village/village_fletcher"
+            "value": "minecraft:chests/village/village_fletcher"
           }
         ]
       }

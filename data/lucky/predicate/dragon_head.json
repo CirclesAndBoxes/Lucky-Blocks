@@ -5,7 +5,11 @@
       "predicate": {
         "equipment": {
           "head": {
-            "nbt": "{DragonPower:1}"
+            "components":{
+              "custom_data": {
+                "DragonPower":1
+              }
+            }
           }
         }
       }

@@ -38,7 +38,7 @@
                 "function": "minecraft:set_name",
                 "name": {
                   "text": "Machine Gun",
-                  "color": "grey",
+                  "color": "light_purple",
                   "bold": true,
                   "italic": false
                 }
@@ -50,8 +50,10 @@
                 }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{RepairCost:10000}"
+                "function": "set_components",
+                "components": {
+                  "repair_cost": 10000
+                }
               }
             ]
           }

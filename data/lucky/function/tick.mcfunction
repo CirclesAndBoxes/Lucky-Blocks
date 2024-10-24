@@ -12,7 +12,7 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minec
 
 
 
-#execute if entity @e[type=item,nbt={Item:{id:"minecraft:sponge",tag:{LuckyEvent:1}}}] as @e[type=item,nbt={Item:{id:"minecraft:sponge",tag:{LuckyEvent:1}}}] at @s run function lucky:trigger_events
+execute as @e[type=item,nbt={Item:{id:"minecraft:sponge",components:{"minecraft:custom_data":{LuckyEvent:1b}}}}] at @s run function lucky:trigger_events
 
 # Hypixel does it by using player heads inside of a glass block
 
@@ -21,23 +21,23 @@ execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minec
 # Lucky Block Model:
 # /give @p minecraft:player_head{display:{Name:"{\"text\":\"Lucky Block (yellow)\"}"},SkullOwner:{Id:[I;-1209863671,61164294,-1096935103,-1854381602],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0="}]}}} 1
 
-# To Do:
-#     function lucky:special_items/fireball_tick
-#     execute if entity @e[type=egg,nbt={Item:{tag:{Gun:1}}}] as @e[type=egg,nbt={Item:{tag:{Gun:1}}}] run function lucky:special_items/gun_tick
-#     execute if entity @e[type=arrow,nbt={Color:16591897}] as @e[type=arrow,nbt={Color:16591897}] at @s run function lucky:special_items/tnt_arrow_tick
-#     function lucky:special_items/freeze_arrow_tick
-#     execute if entity @e[type=arrow,nbt={Color:14448144}] as @e[type=arrow,nbt={Color:14448144}] at @s run function lucky:special_items/launch_arrow_tick
-#     execute if entity @e[type=egg,nbt={Item:{tag:{pufferfishSummon:1}}}] as @e[type=egg,nbt={Item:{tag:{pufferfishSummon:1}}}] at @s run function lucky:special_items/pufferfish_use
-#     execute if entity @e[scores={lb_AttackDelay=0..}] run function lucky:special_items/quick_attack_tick
+
+function lucky:special_items/fireball_tick
+execute as @e[type=egg,nbt={Item:{components:{"minecraft:custom_data":{Gun:1b}}}}] run function lucky:special_items/gun_tick
+execute as @e[type=arrow,nbt={item:{components:{"minecraft:potion_contents":{custom_color:16591897}}}}] at @s run function lucky:special_items/tnt_arrow_tick
+function lucky:special_items/freeze_arrow_tick
+execute as @e[type=arrow,nbt={item:{components:{"minecraft:potion_contents":{custom_color:14448144}}}}] at @s run function lucky:special_items/launch_arrow_tick
+execute if entity @e[type=egg,nbt={Item:{components:{"minecraft:custom_data":{pufferfishSummon:1b}}}}] as @e[type=egg,nbt={Item:{components:{"minecraft:custom_data":{pufferfishSummon:1b}}}}] at @s run function lucky:special_items/pufferfish_use
+execute if entity @e[scores={lb_AttackDelay=0..}] run function lucky:special_items/quick_attack_tick
 #     # See if there is any problem with the leggings
-#     execute if entity @a[nbt={Inventory:[{Slot:101b,tag:{GroundPoundLeggings:1}}]}] as @a[nbt={Inventory:[{Slot:101b,tag:{GroundPoundLeggings:1}}]}] at @s run function lucky:special_items/ground_pound_tick
-#     execute if entity @a[nbt={Inventory:[{Slot:100b,tag:{JumpBoost:2}}]}] as @a[nbt={Inventory:[{Slot:100b,tag:{JumpBoost:2}}]}] run effect give @s jump_boost 1 1 false
+execute as @a[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{"GroundPoundLeggings":1b}}}]}] at @s run function lucky:special_items/ground_pound_tick
+execute as @a[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{"JumpBoost":2b}}}]}] run effect give @s jump_boost 1 1 false
 #     
-#     execute as @a at @s if predicate lucky:dragon_head run function lucky:special_items/dragon_head/tick
+execute as @a at @s if predicate lucky:dragon_head run function lucky:special_items/dragon_head/tick
 #     
-#     execute as @a[scores={lb_RodUsed=1..},nbt={SelectedItem:{tag:{WarHook:1}}}] at @s run function lucky:special_items/bobber_use
-#     execute as @e[type=fishing_bobber,tag=WarBobber,nbt={OnGround:false}] at @s run function lucky:special_items/bobber_tick
-#     execute as @a[scores={lb_RodUsed=1..}] run tag @s remove FishingOwner
+execute as @a[scores={lb_RodUsed=1..},nbt={SelectedItem:{components:{"minecraft:custom_data":{"WarHook":1b}}}}] at @s run function lucky:special_items/bobber_use
+execute as @e[type=fishing_bobber,tag=WarBobber,nbt={OnGround:false}] at @s run function lucky:special_items/bobber_tick
+execute as @a[scores={lb_RodUsed=1..}] run tag @s remove FishingOwner
 #     
 execute as @e[scores={lb_Multihit=1..}] at @s run function lucky:special_items/multihit_tick
 

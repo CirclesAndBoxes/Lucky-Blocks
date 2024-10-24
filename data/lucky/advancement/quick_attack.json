@@ -10,8 +10,13 @@
               "predicate": {
                 "equipment": {
                   "offhand": {
-                    "nbt": "{QuickAttack:1}"
+                    "components": {
+                      "custom_data": {
+                        "QuickAttack":1
+                      }
+                    }
                   }
+                  
                 }
               }
             }

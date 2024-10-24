@@ -8,7 +8,11 @@
             "source_entity": {
               "equipment": {
                 "mainhand": {
-                  "nbt": "{ShieldBreaker:1}"
+                  "components": {
+                    "custom_data": {
+                      "ShieldBreaker":1
+                    }
+                  }
                 }
               }
             }

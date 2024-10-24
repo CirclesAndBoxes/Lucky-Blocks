@@ -15,8 +15,12 @@
                 }
               },
               {
-                "function": "minecraft:set_nbt",
-                "tag": "{LuckyEvent:1,PickupDelay:10000,Age:5995}"
+                "function": "set_components",
+                "components": {
+                  "custom_data": {
+                    "LuckyEvent":1
+                  }
+                }
               }
             ]
           }
