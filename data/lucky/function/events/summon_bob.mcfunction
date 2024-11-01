@@ -1,3 +1,3 @@
 playsound entity.wither.spawn hostile @a ~ ~ ~ 0.5 1 0.5
 particle small_flame ~ ~ ~ 1 .5 1 2 20 normal
-summon zombie ~ ~ ~ {ArmorItems:[{id:"minecraft:golden_boots",Count:1},{id:"minecraft:chainmail_leggings",Count:1},{id:"minecraft:iron_chestplate",Count:1},{id:"minecraft:diamond_helmet",Count:1}],ArmorDropChances:[0.2f,0.2f,0.2f,0.2f],HandDropChances:[0.1f,0.1f],HandItems:[{id:"minecraft:netherite_sword",Count:1},{id:"minecraft:shield",Count:1}],Attributes:[{Name:"minecraft:generic.max_health",Base:50}],Health:50f}
+summon zombie ~ ~ ~ {ArmorItems:[{id:"minecraft:golden_boots",count:1},{id:"minecraft:chainmail_leggings",count:1},{id:"minecraft:iron_chestplate",count:1},{id:"minecraft:diamond_helmet",count:1}],ArmorDropChances:[0.2f,0.2f,0.2f,0.2f],HandDropChances:[0.1f,0.1f],HandItems:[{id:"minecraft:netherite_sword",count:1},{id:"minecraft:shield",count:1}],attributes:[{id:"minecraft:max_health",base:50}],Health:50f}
