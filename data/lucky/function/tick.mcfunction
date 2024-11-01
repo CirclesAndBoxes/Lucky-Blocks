@@ -7,6 +7,9 @@ execute as @e[type=armor_stand,tag=LuckyMultiBlock] at @s positioned ~-0.5 ~1.30
 #For easy block [TODO]
 ####   execute if entity @e[type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:[I;-2073996023,-1707391757,-1877130719,-1171757142],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM4YzBkMmYxZWMyNjc1NGRjYTNjN2NkYWUzMWYxZjE2NDg4M2Q0NTNlNjg4NjQzZGEwNDc1NjhlN2ZhNWNjOSJ9fX0="}]}}}}}] as @e[type=item,nbt={Item:{id:"minecraft:player_head",tag:{SkullOwner:{Id:[I;-2073996023,-1707391757,-1877130719,-1171757142],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM4YzBkMmYxZWMyNjc1NGRjYTNjN2NkYWUzMWYxZjE2NDg4M2Q0NTNlNjg4NjQzZGEwNDc1NjhlN2ZhNWNjOSJ9fX0="}]}}}}}] unless entity @s[nbt={Item:{tag:{LuckyBlock:3}}}] at @s run function lucky:removed
 
+execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;-1209863671,61164294,-1096935103,-1854381602],properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0="}]}}}}] unless entity @s[nbt={Item:{components:{"minecraft:custom_data":{LuckyBlock:3}}}}] at @s run function lucky:removed
+
+
 # For multi block - redundancy
 execute as @e[type=item,nbt={Item:{id:"minecraft:player_head",components:{"minecraft:profile":{id:[I;-1209863671,61164294,-1096935103,-1854381602],properties:[{value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTE5ZDI4YTg2MzJmYTRkODdjYTE5OWJiYzJlODhjZjM2OGRlZGQ1NTc0NzAxN2FlMzQ4NDM1NjlmN2E2MzRjNSJ9fX0="}]}}}}] unless entity @s[nbt={Item:{components:{"minecraft:custom_data":{LuckyBlock:2}}}}] at @s run function lucky:removed
 
