@@ -11,6 +11,7 @@ scoreboard objectives add lb_Gunfire used:carrot_on_a_stick
 scoreboard objectives add lb_RodUsed used:fishing_rod
 scoreboard objectives add lb_Multihit dummy
 scoreboard objectives add lb_UndamageHitCounter dummy
+scoreboard objectives add scratch dummy
 execute positioned 0.0 0.0 0.0 run forceload add ~ ~
 # Starts the regeneration tick thing
 function lucky:special_items/regeneration_tick

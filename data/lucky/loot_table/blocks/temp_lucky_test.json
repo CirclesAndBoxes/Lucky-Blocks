@@ -27,14 +27,14 @@
                         "function": "minecraft:set_attributes",
                         "modifiers": [
                           {
-                            "attribute": "minecraft:generic.movement_speed",
+                            "attribute": "movement_speed",
                             "amount": 0.25,
                             "operation": "add_multiplied_base",
                             "id":"3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
                             "slot": "feet"
                           },
                           {
-                            "attribute": "minecraft:generic.armor",
+                            "attribute": "armor",
                             "amount": 1,
                             "operation": "add_value",
                             "id": "3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",

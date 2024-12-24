@@ -274,14 +274,14 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.attack_damage",
+                              "attribute": "attack_damage",
                               "amount": 6,
                               "operation": "add_value",
                               "slot": "mainhand",
                               "id": "111-111-5235323-11g1"
                             },
                             {
-                              "attribute": "minecraft:generic.attack_speed",
+                              "attribute": "attack_speed",
                               
                               "amount": -2.4,
                               "operation": "add_value",
@@ -352,7 +352,7 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.attack_damage",
+                              "attribute": "attack_damage",
                               
                               "amount": 5,
                               "operation": "add_value",
@@ -360,7 +360,7 @@
                               "id": "111-111-5235323-11g12"
                             },
                             {
-                              "attribute": "minecraft:generic.attack_speed",
+                              "attribute": "attack_speed",
                               
                               "amount": -2.8,
                               "operation": "add_value",
@@ -405,7 +405,7 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.attack_damage",
+                              "attribute": "attack_damage",
                               
                               "amount": 10,
                               "operation": "add_value",
@@ -413,7 +413,7 @@
                               "id": "111-111-5235323-11g13"
                             },
                             {
-                              "attribute": "minecraft:generic.attack_speed",
+                              "attribute": "attack_speed",
                               
                               "amount": -3.5,
                               "operation": "add_value",
@@ -494,7 +494,7 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.armor",
+                              "attribute": "armor",
                               
                               "amount": 2,
                               "operation": "add_value",
@@ -502,7 +502,7 @@
                               "id": "111-111-5235323-11g134"
                             },
                             {
-                              "attribute": "minecraft:generic.armor_toughness",
+                              "attribute": "armor_toughness",
                               
                               "amount": 1,
                               "operation": "add_value",
@@ -646,7 +646,7 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.attack_speed",
+                              "attribute": "attack_speed",
                               
                               "amount": -2.4,
                               "operation": "add_value",
@@ -654,7 +654,7 @@
                               "id": "111-111-5235323-11g1347"
                             },
                             {
-                              "attribute": "minecraft:generic.attack_damage",
+                              "attribute": "attack_damage",
                               
                               "amount": 5,
                               "operation": "add_value",
@@ -696,7 +696,7 @@
                           "function": "minecraft:set_attributes",
                           "modifiers": [
                             {
-                              "attribute": "minecraft:generic.attack_speed",
+                              "attribute": "attack_speed",
                               
                               "amount": -3,
                               "operation": "add_value",
@@ -704,7 +704,7 @@
                               "id": "111545-111-5235323-11g1347"
                             },
                             {
-                              "attribute": "minecraft:generic.attack_damage",
+                              "attribute": "attack_damage",
                               
                               "amount": 1,
                               "operation": "add_value",

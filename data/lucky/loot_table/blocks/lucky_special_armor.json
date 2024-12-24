@@ -27,14 +27,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.movement_speed",
+                    "attribute": "movement_speed",
                     "amount": 0.25,
                     "operation": "add_multiplied_base",
                     "id":"3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
                     "slot": "feet"
                   },
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "id": "3f8fc45c-3ed8-4d19-a733-96ed1e7715fc",
@@ -66,21 +66,21 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.attack_damage",
+                    "attribute": "attack_damage",
                     "amount": -0.2,
                     "operation": "add_multiplied_total",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
                     "slot": "chest"
                   },
                   {
-                    "attribute": "minecraft:generic.attack_speed",
+                    "attribute": "attack_speed",
                     "amount": 1,
                     "operation": "add_value",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
                     "slot": "chest"
                   },
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": 3,
                     "operation": "add_value",
                     "id": "c59e0730-7dce-48c2-8d93-1fc5f7060264",
@@ -113,14 +113,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.attack_damage",
+                    "attribute": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "offhand",
                     "id": "c59e0-7bbdce-48c2-8d93-1fc5f642"
                   },
                   {
-                    "attribute": "minecraft:generic.max_health",
+                    "attribute": "max_health",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "offhand",
@@ -164,14 +164,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.attack_damage",
+                    "attribute": "attack_damage",
                     "amount": 5,
                     "operation": "add_value",
                     "slot": "offhand",
                     "id": "c59e0-7bbdce-48c2-8d93-1fc5f6421"
                   },
                   {
-                    "attribute": "minecraft:generic.max_health",
+                    "attribute": "max_health",
                     "amount": -6,
                     "operation": "add_value",
                     "slot": "offhand",
@@ -211,35 +211,35 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.max_health",
+                    "attribute": "max_health",
                     "amount": 2,
                     "operation": "add_value",
                     "slot": "chest",
                     "id": "2402-438692-hfsk-111"
                   },
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": 8,
                     "operation": "add_value",
                     "slot": "chest",
                     "id": "2402-438692-hfsk-111"
                   },
                   {
-                    "attribute": "minecraft:generic.armor_toughness",
+                    "attribute": "armor_toughness",
                     "amount": 3,
                     "operation": "add_value",
                     "slot": "chest",
                     "id": "2402-438692-hfsk-111"
                   },
                   {
-                    "attribute": "minecraft:generic.movement_speed",
+                    "attribute": "movement_speed",
                     "amount": -0.2,
                     "operation": "add_multiplied_base",
                     "slot": "chest",
                     "id": "2402-438692-hfsk-111"
                   },
                   {
-                    "attribute": "minecraft:generic.knockback_resistance",
+                    "attribute": "knockback_resistance",
                     "amount": 0.1,
                     "operation": "add_value",
                     "slot": "chest",
@@ -350,14 +350,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.movement_speed",
+                    "attribute": "movement_speed",
                     "amount": 0.1,
                     "operation": "add_multiplied_base",
                     "slot": "legs",
                     "id": "123-432-90690210-bn11"
                   },
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "legs",
@@ -386,7 +386,7 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.attack_damage",
+                    "attribute": "attack_damage",
                     "amount": 1,
                     "operation": "add_value",
                     "slot": "head",
@@ -564,7 +564,7 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": 0,
                     "operation": "add_value",
                     "slot": "chest",
@@ -619,14 +619,14 @@
                 "function": "minecraft:set_attributes",
                 "modifiers": [
                   {
-                    "attribute": "minecraft:generic.armor",
+                    "attribute": "armor",
                     "amount": -100,
                     "operation": "add_multiplied_total",
                     "slot": "head",
                     "id": "99999-12-73951-b1"
                   },
                   {
-                    "attribute": "minecraft:generic.max_health",
+                    "attribute": "max_health",
                     "amount": 1.5,
                     "operation": "add_multiplied_base",
                     "slot": "head",
